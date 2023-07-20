@@ -1,6 +1,6 @@
-# Aula - 2023-07-07 - Backend e conhecendo o Node
+# Aula - 2023-07-14 - Node init (npm init)
 
-Esta aula foi realizada em 07 de julho de 2023.
+Esta aula foi realizada em 14 de julho de 2023.
 
 ## Planejamento
 
@@ -12,4 +12,3 @@ Esta aula foi realizada em 07 de julho de 2023.
 
 - [Notas da Aula](./notas.md)
 - [Codigo feito na aula](./codigo)
-- [Atividade para casa](./atividade.md)
