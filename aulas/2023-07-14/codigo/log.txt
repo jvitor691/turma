@@ -1,0 +1,7 @@
+node-aula-2: 1.0.1
+node-aula-2: 1.0.1
+node-aula-2: 1.0.1
+node-aula-2: 1.0.1
+node-aula-2: 1.0.1
+node-aula-2: 1.0.1
+	node-aula-2: 1.0.1
