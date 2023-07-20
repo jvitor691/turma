@@ -22,4 +22,8 @@ Este repositório é organizado da seguinte forma:
 ├── projetos
 └── recursos
 
+<<<<<<< HEAD
 ```
+=======
+```
+>>>>>>> 54c909724f257a392ee5ccac64e7c8b385a506cb
