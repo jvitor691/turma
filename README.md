@@ -15,15 +15,11 @@ Este repositório é organizado da seguinte forma:
 │    │   ├── codigo
 │    │   └── desafios | desafio.md
 │    │
-│    └── 2023-07-14
+│    └── 2023-07-14'
 │
 ├── avaliacoes
 ├── desafios
 ├── projetos
 └── recursos
 
-<<<<<<< HEAD
 ```
-=======
-```
->>>>>>> 54c909724f257a392ee5ccac64e7c8b385a506cb
