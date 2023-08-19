@@ -35,7 +35,11 @@ servidor.get("/alunos/:id", (req, res) => {
 
   const alunos = buscaAlunos();
 
+<<<<<<< HEAD
   const aluno = alunos.find((aluno) => aluno.id === id);
+=======
+  const aluno = alunos[id];
+>>>>>>> 80161df6c20849495364c6b43ae713c33d81eba7
 
   if (aluno) {
     res.send(aluno);
@@ -44,6 +48,21 @@ servidor.get("/alunos/:id", (req, res) => {
   }
 });
 
+<<<<<<< HEAD
+=======
+servidor.get("/alunos/nome/:nome", (req, res) => {
+  const nome = req.params.nome;
+
+  const alunos = buscaAlunos();
+
+  const alunosFiltrados = alunos.filter((aluno) =>
+    aluno.nome.toUpperCase().includes(nome.toUpperCase())
+  );
+
+  res.send(alunosFiltrados);
+});
+
+>>>>>>> 80161df6c20849495364c6b43ae713c33d81eba7
 servidor.delete("/alunos/:id", (req, res) => {
   const id = req.params.id;
 
@@ -66,7 +85,11 @@ servidor.post("/alunos", (req, res) => {
 
   const alunos = buscaAlunos();
 
+<<<<<<< HEAD
   alunos.push(new Aluno(aluno.nome, aluno.turma, aluno.ativo));
+=======
+  alunos.push(aluno);
+>>>>>>> 80161df6c20849495364c6b43ae713c33d81eba7
 
   fs.writeFileSync("alunos.json", JSON.stringify(alunos));
 
