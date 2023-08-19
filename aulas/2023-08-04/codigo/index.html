@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <input
+      id="min"
+      type="number"
+      min="0"
+      value="0"
+      placeholder="min"
+      required
+    />
+    <input
+      id="max"
+      type="number"
+      min="0"
+      value="0"
+      placeholder="max"
+      required
+    />
+
+    <span id="result"></span>
+
+    <button onclick="gerarPares()">Calcular</button>
+
+    <script>
+      const pares = []
+      function gerarPares() {
+        const min = Number(document.getElementById("min").value);
+        const max = Number(document.getElementById("max").value);
+        
+        
+        for (let index = min; index <= max; index++) {
+          if (index % 2 === 0) {
+            pares.push(index)
+          }
+        }
+
+        result.innerText = pares;
+      }
+
+      // function calcular() {
+      //   const min = Number(document.getElementById("min").value);
+      //   const max = Number(document.getElementById("max").value);
+
+      //   if (min >= 0 && max >= 0) {
+      //     const result = document.getElementById("result");
+
+      //     let numero = Math.random() * (max - min) + min;
+
+      //     result.innerText = Math.floor(numero);
+      //   } else {
+      //     alert("preencha os campos min e max");
+      //   }
+      // }
+    </script>
+  </body>
+</html>
