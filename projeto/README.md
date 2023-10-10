@@ -5,14 +5,14 @@
 O projeto final, intitulado "Meus Links," é uma aplicação web de gerenciamento de links pessoais que permitirá aos usuários criar, editar, excluir e visualizar links personalizados. Este projeto abrange tanto o desenvolvimento do frontend quanto do backend e utiliza as seguintes tecnologias:
 
 - Frontend: React
-- Backend: Node.js, Express, Prisma, PostgreSQL
+- Backend: Node.js, Express, PostgreSQL
 
 ## Objetivos
 
 O objetivo principal deste projeto é proporcionar aos alunos a oportunidade de aplicar os conhecimentos adquiridos em Full Stack Web Development para criar uma aplicação completa e funcional. Os objetivos específicos incluem:
 
 1. Desenvolver a parte frontend da aplicação usando React.
-2. Implementar o backend usando Node.js, Express, Prisma e PostgreSQL.
+2. Implementar o backend usando Node.js, Express e PostgreSQL.
 3. Criar um sistema de autenticação de usuário.
 4. Habilitar os usuários a gerenciar seus links personalizados.
 5. Consumir uma API para interagir com os dados de usuário e links.
