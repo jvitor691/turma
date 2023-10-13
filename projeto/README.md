@@ -71,7 +71,7 @@ O objetivo principal deste projeto é proporcionar aos alunos a oportunidade de 
 - Configurar o servidor Node.js com Express.
 - Criar rotas para registro, login e gerenciamento de links.
 - Implementar autenticação de usuário usando tokens JWT.
-- Conectar-se a um banco de dados PostgreSQL com o Prisma.
+- Conectar-se a um banco de dados PostgreSQL.
 - Validar dados de entrada e implementar autorização para ações do usuário.
 
 #### Definições de Rotas do Backend
@@ -91,7 +91,6 @@ Aqui estão alguns recursos que podem ser úteis durante o desenvolvimento do pr
 - Documentação oficial do React: [https://react.dev/](https://react.dev/)
 - Documentação oficial do Axios: [https://axios-http.com/docs/intro](https://axios-http.com/docs/intro)
 - Documentação oficial do React Router Dom: [https://v5.reactrouter.com/web/guides/quick-start](https://v5.reactrouter.com/web/guides/quick-start)
-- Documentação do Prisma: [https://prisma.io/docs/](https://prisma.io/docs/)
 - Documentação do Express.js: [https://expressjs.com/](https://expressjs.com/)
 - Documentação do PostgreSQL: [https://www.postgresql.org/docs/](https://www.postgresql.org/docs/)
 
